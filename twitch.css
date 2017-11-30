@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Hammersmith One', sans-serif;
+}
+body > div{
+	width: 85%;
+	min-width: 350px;
+	margin: 20px auto 0;
+	padding: 20px 0;
+	background-color: #363333;/*grey*/
+}
+h1, #stream{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 10px;
+	text-align:center;
+}
+#stream button{
+	margin: 0 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	cursor: pointer;
+	padding: 10px 20px;
+	overflow: hidden;
+	border: none;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	font: normal 16px/normal "Times New Roman", Times, serif;
+	color: rgba(255,255,255,0.9);
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	background: #272121;
+	-webkit-box-shadow: 1px 1px 3px 0 #C4AFF0 ;
+	box-shadow: 1px 1px 3px 0 #C4AFF0 ;
+	text-shadow: 0 0 0 rgba(15,73,168,0.66) ;
+	outline: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+	-webkit-tap-highlight-color: transparent;
+}
+#stream button:focus{
+	-webkit-box-shadow: 1px 1px 3px 0 white;
+	box-shadow: 1px 1px 3px 0 white;
+}
+.channel{
+	width: 90%;
+	height: auto;
+	margin: 10px auto;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #C4AFF0;
+	-webkit-box-shadow: 1px 1px 3px 0 white;
+	box-shadow: 1px 1px 3px 0 white;
+	position: relative;
+}
+a{
+	text-decoration: none;
+}
+.channel:hover{
+	background-color: #b89df2;
+	-webkit-box-shadow: 1px 1px 3px 0 white;
+	box-shadow: 1px 1px 3px 0 white;
+}
+img{
+	max-width: 80px;
+	max-height: 80px;
+	margin-right: 20px;
+	border: 1px solid #363333;
+	position: relative;
+	float: left;
+}
+h3{
+	color: #272121;
+	margin-left: 120px;
+}
+p{
+	margin-left: 120px;
+	overflow: hidden;
+}
+.offline{
+	background-color: #a3a3a3;
+}
+.game{
+	font-size: 20px;
+	font-weight: bold;
+}
+.offline span.game{
+	color: #363333;
+	font-size: 15px;
+}
